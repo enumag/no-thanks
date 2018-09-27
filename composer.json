@@ -1,0 +1,24 @@
+{
+    "name": "enumag/no-thanks",
+    "description": "Prevents symfony/flex from printing thanks reminder.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jáchym Toušek",
+            "email": "enumag@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0",
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symfony\\Thanks\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Symfony\\Thanks\\Thanks"
+    }
+}
