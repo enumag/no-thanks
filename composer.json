@@ -13,6 +13,9 @@
         "php": "^7.1.0",
         "composer-plugin-api": "^1.0"
     },
+    "replace": {
+        "symfony/thanks": "*"
+    },
     "autoload": {
         "psr-4": {
             "Symfony\\Thanks\\": "src"
